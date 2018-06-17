@@ -25,13 +25,14 @@
       <!-- End breadcrumb -->
       <!-- End nav -->
     </header>
+    <a href="#content-container" class="skip-link">Skip to main content</a>
     <!-- End header -->
 
     <!-- Beginning main -->
     <main id="maincontent">
       <!-- Beginning map -->
-      <section id="map-container">
-        <div id="map"></div>
+      <section id="map-container" aria-hidden="true">
+        <div id="map" aria-hidden="true"></div>
       </section>
       <!-- End map -->
       <!-- Beginning restaurant -->
@@ -73,13 +74,13 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyzKioa2bTf49BFeAqbf9r0XWodZ6oUfE&libraries=places&callback=initMap"></script>
     <!-- End scripts -->
 
-    <!--<script>
+    <script>
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').then(function() {
           console.log('Service Worker is Registered');
         });
       }
-    </script>-->
+    </script>
 
   </body>
 

@@ -63,6 +63,16 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-transform: uppercase;
 }
 
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 /* ====================== Navigation ====================== */
 
 nav {
@@ -134,7 +144,7 @@ nav h1 a {
 
 .filter-options {
   width: 100%;
-  background-color: #3397DB;
+  background-color: #fbbc06;
   align-items: center;
   flex-flow: auto;
   text-align: center;
@@ -196,7 +206,7 @@ nav h1 a {
 }
 
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #31c76d;
   font-family: Arial, sans-serif;
   font-size: 14pt;
   font-weight: 200;
@@ -212,7 +222,7 @@ nav h1 a {
 }
 
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #88ad9a;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -258,12 +268,12 @@ nav h1 a {
 }
 
 #restaurant-name {
-  color: #f18200;
+  color: #31c76d;
   font-family: Arial, sans-serif;
   font-size: 20pt;
   font-weight: 200;
   letter-spacing: 0;
-  margin: 15px 0 30px;
+  margin: 150px 0 30px;
   text-transform: uppercase;
   line-height: 1.1;
 }
@@ -308,7 +318,7 @@ nav h1 a {
 }
 
 #reviews-container h2 {
-  color: #f58500;
+  color: #31c76d;
   font-size: 24pt;
   font-weight: 300;
   letter-spacing: -1px;
@@ -385,6 +395,9 @@ nav h1 a {
   }
   #breadcrumb {
     width: 100%;
+  }
+  #restaurant-name {
+    margin: 15px 0 30px;
   }
 }
 
