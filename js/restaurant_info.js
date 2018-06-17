@@ -111,8 +111,8 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
-  title.setAttribute('aria-label', 'reviews')
-  title.setAttribute('tabindex','0')
+  title.setAttribute('aria-label', 'reviews');
+  title.setAttribute('tabindex','0');
   container.appendChild(title);
 
   if (!reviews) {
