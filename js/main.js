@@ -145,7 +145,7 @@ createRestaurantHTML = (restaurant) => {
   image.setAttribute('tabindex','0');
   li.append(image);
 
-  const name = document.createElement('h1');
+  const name = document.createElement('h3');
   name.setAttribute('tabindex','0');
   name.setAttribute('aria-label',restaurant.name+' Restaurant');
   name.innerHTML = restaurant.name;
